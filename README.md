@@ -1,41 +1,45 @@
-# Installation
+# Shopping Cart Application
+A simple and responsive shopping cart application built with React.js, TypeScript, and Tailwind CSS.
+## Installation
 ```bash
 git clone https://github.com/shwetkamal-gaud/shopping-cart.git
 ```
-## Change the Directory
+### Change the Directory
 ```bash
 cd shopping-cart
 ```
-## Install Dependencies 
+### Install Dependencies 
 ```bash
 npm install
 ```
-## Run The Server
+### Run The Server
 ```bash
 npm run dev
 ```
-# Tech Stack
+## Tech Stack
 <ul>
-  <li>React.js
-  <li>Tailwind CSS</li>
-  <li>ShadCN components</li>
-  <li>TypeScript</li>
-  <li>React Query for data handling</li>
-  <li>Redux for state management and state persistence</li>
+  <li>Frontend: React.js,Tailwind CSS, ShadCN components, TypeScript</li>
+  <li>Data Fetching:React Query for data handling</li>
+  <li>State Management: Redux for state management and state persistence</li>
 </ul>
 
-# Functionalities 
+## Features 
+### Product Listing Page
 <ul>
-  <li>Fetch & Display Products List</li>
-  <li>Cart Functionality(Add to cart)</li>
-  <li>Load more</li>
-  <li>Filtering by category</li>
-  <li>Sorting by Prices</li>
-  <li>Display Cart</li>
-  <li>Update quantity </li>
-  <li>Remove items</li>
-  <li>Total Calculation</li>
-  <li>State Persistence</li>
+  <li>Fetch & display products from Fake Store API</li>
+  <li>Add products to the cart</li>
+  <li>"Load More" functionality for pagination</li>
+  <li> Filter products by category</li>
+  <li>Sort products by price</li>
 </ul>
 
-## Thank you for considering my application. I look forward to the next steps.
+### Cart Page
+<ul>
+  <li>View added products in the cart</li>
+  <li>Update Product quantity </li>
+  <li>Remove products from the cart</li>
+  <li>Calculate total price</li>
+  <li>Persist cart state across page reloads</li>
+</ul>
+
+### Thank you for considering my application. I look forward to the next steps.
