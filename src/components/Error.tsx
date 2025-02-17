@@ -8,9 +8,9 @@ import {
 
 const Error = ({err}:{err:Error}) => {
   return (
-      <Alert variant="destructive">
+      <Alert className="border-red-500 text-red-500" variant="destructive">
           <AlertCircle className="h-4 w-4" />
-          <AlertTitle>Error</AlertTitle>
+          <AlertTitle className="text-red">Error</AlertTitle>
           <AlertDescription>
               {err.message}
           </AlertDescription>

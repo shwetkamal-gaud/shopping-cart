@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      {error && <div className="absolute right-2"><Error err={error} /></div>}
+      {error && <div className="absolute right-2 top-25"><Error err={error} /></div>}
       <Routes>
         <Route path="/" element={<ProductList />} />
         <Route path="/cart" element={<Cart />} />
