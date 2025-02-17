@@ -21,6 +21,7 @@ npm run dev
   <li>ShadCN components</li>
   <li>TypeScript</li>
   <li>React Query for data handling</li>
+  <li>Redux for state management and state persistence</li>
 </ul>
 
 # Functionalities 
