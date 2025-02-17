@@ -1,3 +1,30 @@
+# Installation
+```bash
+git clone https://github.com/shwetkamal-gaud/shopping-cart.git
+```
+## Change the Directory
+```bash
+cd shopping-cart
+```
+## Install Dependencies 
+```bash
+npm install
+```
+## Run The Server
+```bash
+npm run dev
+```
+# Tech Stack
+<ul>
+  <li>React.js
+  <li>Tailwind CSS</li>
+  <li>ShadCN components</li>
+  <li>TypeScript</li>
+  <li>React Query for data handling</li>
+</ul>
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
